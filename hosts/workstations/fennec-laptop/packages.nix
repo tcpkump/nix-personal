@@ -22,4 +22,6 @@ lib.concatMap (pset: pset) [
   # gaming
   prismlauncher
   godot_4
+  # AI
+  lmstudio
 ]
