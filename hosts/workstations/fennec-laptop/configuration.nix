@@ -7,7 +7,7 @@
 {
   imports = [
     ./hardware-configuration.nix
-    "${nix-base}/shared/workstations/nixos/gnome/default.nix"
+    "${nix-base}/shared/workstations/nixos/sway/default.nix"
   ];
 
   boot = {

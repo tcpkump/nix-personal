@@ -82,6 +82,22 @@
         "type": "github"
       }
     },
+    "difft-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1762119470,
+        "narHash": "sha256-sKjjQySs+gvrRJJN/y35d8JYwIkXO853OsNNDEAKj0k=",
+        "owner": "ahkohd",
+        "repo": "difft.nvim",
+        "rev": "cabc1d56e8ce9647973039c65c71608583f700a0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ahkohd",
+        "repo": "difft.nvim",
+        "type": "github"
+      }
+    },
     "flake-compat": {
       "flake": false,
       "locked": {
@@ -266,11 +282,11 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1775504875,
-        "narHash": "sha256-ggsbWjA4r7UWjPNz5sTb4U8jhvg2GSDAvd5IOJJcJEk=",
+        "lastModified": 1777652848,
+        "narHash": "sha256-21a0hNmNpt7npaCTyeu1uEamGoDw/FIVHeXqEdQG3O0=",
         "owner": "tcpkump",
         "repo": "nix-base",
-        "rev": "78355924b6afeadf53e7854a449dbc5a57898e01",
+        "rev": "ea009b427de790451fbd722b166ca352964237b1",
         "type": "github"
       },
       "original": {
@@ -336,15 +352,16 @@
     },
     "nixcats-config": {
       "inputs": {
+        "difft-nvim": "difft-nvim",
         "nixCats": "nixCats",
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1775504633,
-        "narHash": "sha256-jT0pSWAejE2BQR4eURMuMKwxU+dOsZAq4cIUgshtmlw=",
+        "lastModified": 1775657677,
+        "narHash": "sha256-4FYVus/jJQLVCEJNKVOebB6NqTDiL/dCF2sGsT+mkgI=",
         "owner": "tcpkump",
         "repo": "nixCats-config",
-        "rev": "ce66e85a35be4ea0bb1b1572eac43bab275f250b",
+        "rev": "85f941e9d4e4310f147bc0f7b14424f3b177b75c",
         "type": "github"
       },
       "original": {
